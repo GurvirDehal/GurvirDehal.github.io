@@ -1,0 +1,123 @@
+{
+  "main": {
+    "name":"Gurvir Dehal",
+    "occupation":"Software Developer",
+    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image":"profilepic.jpg",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "gurvirdehal@gmail.com",
+    "phone": "587-703-6546",
+    "address":{
+      "street":"52 Templeson Place NE",
+      "city":"Calgary",
+      "state":"AB",
+      "zip": "T1Y 5L9"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/gurvir-dehal/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/GurvirDehal/",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University of British Columbia",
+        "degree":"Bachelor of Science",
+        "graduated": "May 2022",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"SMART Technologies",
+        "title":"Web Application Developer Intern",
+        "years":"September 2019 - April 2020",
+        "description":"Responsible for using tools such as Vue.js, React, npm and webpack in order to build a large-scale JavaScript application that teachers use in their lessons in classrooms around the world. Practiced agile development and worked with a large highly interactive team, including the testing team to ensure quality code by doing code reviews and writing unit tests using Mocha and Sinon.js."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"85%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"60%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"95%"
+      },
+      {
+        "name":"VueJs",
+        "level":"90%"
+      },
+      {
+        "name":"C/C++",
+        "level":"80%"
+      },
+      {
+        "name": "Mobile Dev",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Tweetable Coffee Machine",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"coffee-machine.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Android Radio",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"8-bit CPU",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Flappy Bird AI",
+        "category":"A React based resume website template",
+        "image":"flappy-bird.png",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Chess AI",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Gurvir is a self starter and technically proficient.  He was able to learn on the fly and was very productive very quickly upon joining the team.",
+        "user":"Kenny Tsang"
+      }
+    ]
+  }
+}
