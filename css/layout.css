@@ -39,6 +39,14 @@ header {
    text-align: center;
    overflow: hidden;
 }
+@keyframes blink { 
+   50% { border-right-color: #666; } 
+}
+.txt-rotate > .wrap {
+   border-right: 0.08em solid transparent;
+   animation: blink .5S step-end infinite alternate;
+   color: #ff9800;
+}
 
 /* vertically center banner section */
 header:before {
@@ -446,7 +454,6 @@ ul#nav li.current a { color: #ffa76d; }
 }
 .portfolio-item .item-wrap a {
    display: block;
-   cursor: pointer;
 }
 
 /* overlay */
@@ -486,11 +493,12 @@ ul#nav li.current a { color: #ffa76d; }
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 
-   position: absolute;
+   /* position: absolute;
    top: 50%;
    left: 50%;
    margin-left: -15px;
-   margin-top: -15px;
+   margin-top: -15px; */
+   margin: auto;
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;

@@ -2,20 +2,18 @@
   "main": {
     "name":"Gurvir Dehal",
     "occupation":"Software Developer",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"I'm currently studying Computer Science at UBC.",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"I'm currently studying Computer Science at UBC in Vancouver, British Columbia. I'm passionate in learning about all areas of Computer Science ranging from low-level hardware/software to web/mobile development to machine learning.",
+    "contactmessage":"Want to get in touch? Send me a message!",
     "email": "gurvirdehal@gmail.com",
     "phone": "587-703-6546",
     "address":{
-      "street":"52 Templeson Place NE",
       "city":"Calgary",
-      "state":"AB",
-      "zip": "T1Y 5L9"
+      "state":"AB"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.gurvirdehal.github.io/",
+    "resumedownload":"https://drive.google.com/file/d/1AoQtL0ctpyNQLtmvtgQYag-YJTpvvxBf/view?usp=sharing",
     "social":[
       {
         "name":"linkedin",
@@ -36,7 +34,7 @@
         "school":"University of British Columbia",
         "degree":"Bachelor of Science",
         "graduated": "May 2022",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Major in Computer Science. Achieved Dean's List 2017 - 2020"
       }
     ],
     "work":[
@@ -73,6 +71,10 @@
         "level":"80%"
       },
       {
+        "name": "Python",
+        "level": "85%"
+      },
+      {
         "name": "Mobile Dev",
         "level": "70%"
       }
@@ -82,33 +84,28 @@
     "projects": [
       {
         "title":"Tweetable Coffee Machine",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"coffee-machine.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "category":"A coffee machine that works by tweeting at it!",
+        "image":"coffee-machine.jpg"
       },
       {
         "title":"Android Radio",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "category":"An android app that allows you to listen to any streamable radio station",
+        "image":"radio-app.jpg"
       },
       {
         "title":"8-bit CPU",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "category":"An 8-bit cpu made from circuits and wires capable of performing arithmetic and logical operations.",
+        "image":"8-bit-cpu.jpg"
       },
       {
         "title":"Flappy Bird AI",
-        "category":"A React based resume website template",
-        "image":"flappy-bird.png",
-        "url":"http://www.timbakerdev.com"
+        "category":"An AI powered by machine learning that can play Flappy Bird flawlessly without dying.",
+        "image":"flappy-bird.jpg"
       },
       {
         "title":"Chess AI",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "category":"A chess engine and AI that has admittedly beaten me a couple times :)",
+        "image":"chess.jpg"
       }
     ]
   },
@@ -116,7 +113,7 @@
     "testimonials":[
       {
         "text":"Gurvir is a self starter and technically proficient.  He was able to learn on the fly and was very productive very quickly upon joining the team.",
-        "user":"Kenny Tsang"
+        "user":"Kenny Tsang (SMART Manager)"
       }
     ]
   }
