@@ -14,8 +14,8 @@ var TxtRotate = function(el, toRotate, period) {
  };
  
  TxtRotate.prototype.tick = function() {
-   var i = this.loopNum % this.toRotate.length;
-   var fullTxt = this.toRotate[i];
+   const i = this.loopNum % this.toRotate.length;
+   const fullTxt = this.toRotate[i];
  
    if (this.isDeleting) {
      this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -25,8 +25,7 @@ var TxtRotate = function(el, toRotate, period) {
  
    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
  
-   var that = this;
-   var delta = 100;
+   let delta = 100;
  
    if (this.isDeleting) { delta /= 2; }
  
@@ -39,8 +38,8 @@ var TxtRotate = function(el, toRotate, period) {
      delta = 500;
    }
  
-   setTimeout(function() {
-     that.tick();
+   setTimeout(() => {
+     this.tick();
    }, delta);
  };
 
@@ -179,51 +178,6 @@ var TxtRotate = function(el, toRotate, period) {
       animationSpeed: 600,
       randomize: false,
    });
-
-/*----------------------------------------------------*/
-/*	contact form
-------------------------------------------------------*/
-
-   // $('form#contactForm button.submit').click(function() {
-
-   //    $('#image-loader').fadeIn();
-
-   //    var contactName = $('#contactForm #contactName').val();
-   //    var contactEmail = $('#contactForm #contactEmail').val();
-   //    var contactSubject = $('#contactForm #contactSubject').val();
-   //    var contactMessage = $('#contactForm #contactMessage').val();
-
-   //    var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-   //             '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
-
-   //    $.ajax({
-
-	//       type: "POST",
-	//       url: "inc/sendEmail.php",
-	//       data: data,
-	//       success: function(msg) {
-
-   //          // Message was sent
-   //          if (msg == 'OK') {
-   //             $('#image-loader').fadeOut();
-   //             $('#message-warning').hide();
-   //             $('#contactForm').fadeOut();
-   //             $('#message-success').fadeIn();   
-   //          }
-   //          // There was an error
-   //          else {
-   //             $('#image-loader').fadeOut();
-   //             $('#message-warning').html(msg);
-	//             $('#message-warning').fadeIn();
-   //          }
-
-	//       }
-
-   //    });
-   //    return false;
-   // });
-
-
 });
 
 
